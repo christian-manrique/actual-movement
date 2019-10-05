@@ -1,0 +1,485 @@
+@media (max-width: math($(baseTemplateWidth)+50, px)) { 
+	.slick-slider {
+		h4.nbs {
+			&.nsNext {right: 0;}
+			&.nsPrev {left: 0;}
+			a {
+				height: 54px;
+				&:before {
+					flex: 0 0 34px;
+					width: 34px;
+				}
+			}
+			span {display: none;}
+		}
+	}
+}
+
+@media (max-width: math($(baseTemplateWidth)-1, px)) { 
+	.gutter .port {
+		width: 100%;
+		max-width: none;
+		padding-left: $(pagePadding)px;
+		padding-right: $(pagePadding)px;
+	}
+	.btSlideGutter {
+		max-width: none;
+		.btSlidePane {
+			padding-left: 60px;
+			padding-right: 60px;
+		}		
+	}
+	.btGridOverlay .container {
+		padding: 0 math($(innerVerticalPadding)/2)px;
+	}
+
+	.btWithSidebar.btSidebarRight .btSidebar {
+		padding-right: $(sidebarPadding)px;
+		padding-left: 0;
+	}
+
+	.btWithSidebar.btSidebarLeft .btSidebar {
+		padding-left: $(sidebarPadding)px;
+		padding-right: 0;
+	}
+
+	.btSearchInner.btFromTopBox .btSearchInnerClose {
+		right: $(pagePadding)px;
+	}
+
+	.btMenuVerticalRight .btVerticalMenuTrigger {
+		margin: 0;
+	}
+
+	.slided {
+		.slick-dots {bottom: 20px;}
+		.btBtn + .btBtn {margin-top: 5px;}
+	}
+
+}
+
+@media (max-width: 1199px) {
+
+	.btCounterHolder, .btCounterHolder.btCounterLargeSize {
+		font-size: 3.5em;
+	}
+
+	.slidedVariable .slick-list {
+		z-index: 1;
+	}
+	
+	.widget_shopping_cart {
+		.buttons .button {
+			width: 100%;
+		}
+		.buttons .button.checkout {
+			margin-top: 10px;
+		}
+	}
+	.widget_price_filter .price_slider_amount .button {
+		float: none;
+		width: 100%;
+	}
+
+	/* Typography breakpoint */
+	h1 {font-size: 4em;}
+	.header.huge {font-size: 13px;}
+	.header.extralarge{font-size: 14px;}
+	/* /Typography breakpoint */
+
+}
+
+@media (max-width: 992px) {
+
+	.neighboringArticles {
+		.btTextLeft h4.nsPrev {
+			margin-bottom: 10px;
+		}
+		.btTextLeft:after {
+			content: ' ';
+			clear: both;
+			display: table;
+			width: 100%;
+			height: 2px;
+			margin-bottom: 10px;
+			:lightSkinSelector & {
+				background-color: $(lightBgSubColor);
+			}
+
+			:darkSkinSelector & {
+				background-color: 1px solid $(darkBgSubColor);
+			}
+		}	
+	}
+
+	/* Grid related */
+
+	.btHighlight > .rowItemContent {
+		margin-bottom: 1em;
+	}
+
+	/* Horizontal padding */
+
+	.rowItem.btDoublePadding .rowItemContent {
+		padding: 0 math(1*$(innerHorizontalPadding), px);
+	}
+
+	.btArticleListItem {
+		margin-bottom: 40px;
+		.btArticleFooter {
+			:any(.btReadArticle,.btShareArticle) {
+				text-align: center;
+				padding-top: 0;
+			}
+			.btReadArticle {
+				margin: 10px 0 0;
+				a.btBtn.btContinueReading {
+					margin: 0 auto;
+				}
+			}
+			.btShareArticle:before {
+				width: 65px;
+				height: 1px;
+				content: ' ';
+				display: block;
+				margin: 0;
+			}
+			.shareRowItem, .tagsRowItem {
+				text-align: center;
+				padding-top: 1em;
+				padding-bottom: 1em;
+				.btTags ul li {
+					float: none;
+				}
+
+			}
+		}
+	}
+	.btShowTitle {
+		padding: 15px 15px 20px;
+		.header.small {
+			margin: 0;
+			h4 {
+				font-size: 1.375em;
+				margin: 0 0 -20px;
+				span.headline {
+					padding: 0 0 20px;
+				}
+			}
+			.btSuperTitle {
+				margin-bottom: 0.625em;
+				font-size: 10px;
+				line-height: 18px;
+			}
+			:any(.btArticleCategories,.btArticleComments,.btArticleAuthor,.btArticleDate):not(:last-child):after {
+			    padding: 0 0.2em;
+			    font-size: 18px;
+			    line-height: 18px;
+			}
+		}
+	}
+
+
+	.btCommentsBox {
+		ul.children {
+		    margin: 0 0 0 15px;
+		    ul.children {margin: 0 0 0 15px;}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.btContent, .btSidebar {
+		width: auto;
+		float: none;
+	}
+
+	:any( .btWithSidebar.btSidebarLeft, .btWithSidebar.btSidebarRight) {
+		.btSidebar {
+			padding-top: 30px;
+			padding-left: $(innerHorizontalPadding)px;
+			padding-right: $(innerHorizontalPadding)px;
+			float: none;
+		}
+		.btContent  {float: none;}
+	}
+
+	.btCounterHolder, .btCounterHolder.btCounterLargeSize {
+		font-size: 2.5em;
+	}
+
+	.btGhost .btSlidePane {
+		.btArticleMeta {
+			display: none;
+		}
+	} 
+
+	.portfolioItem .btTextRight .btArticleMeta {
+		text-align: left;
+	}
+
+	.btGoogleMapsWrapper {
+		.btGoogleMapsContainer, .btGoogleMapsContainer.btGoogleMapsContainerWithContent  {
+			height: 400px !important;
+			position: relative;
+		}
+		.btGoogleMapsContent {
+			position: relative;
+			clear: both;
+			width: auto !important;
+			margin: $(pagePadding)px !important;
+			right: 0 !important;
+			left: 0 !important;
+			top: 0 !important;
+			padding: 2em 0;
+			.btGoogleMapsWrap {
+				width: 100%;
+				float: none;
+				position: relative;
+			}
+
+		}	
+	}
+
+	/* Typography breakpoint */
+		body {font-size: 14px;}
+		h1 {font-size: 3.6em;}
+		h2 {font-size: 2.7em;}	
+		h3 {font-size: 2em;}
+		h4 {font-size: 1.8em;}
+		h5 {font-size: 1.5em;} 
+		.header.huge {font-size: 12px;}
+		.btDash.topDash :any(.btSuperTitle:before,.btSuperTitle:after) {min-width: 2.5em;}
+	
+		.header.small {
+			font-size: 15px;
+			.btSuperTitle {font-size: 0.8em;}
+		}
+
+		.header.extrasmall h4 {font-size: 1.225em;}
+	/* /Typography breakpoint */
+
+	.btSidebarLeft, .btSidebarRight {
+		.btContent {
+			float: none;
+			padding: 0;
+		}	
+	}
+
+	.tagsRowItem.btTextLeft, .shareRowItem.btTextRight {
+		text-align: center;
+	}
+
+	.tagsRowItem.btTextLeft .btTags ul li {float: none;}
+
+	.tagsRowItem.btTextLeft + .shareRowItem.btTextRight {
+		padding-top: 20px;
+		padding-bottom: 10px;
+		clear: left;
+	}
+}
+
+@media (max-width:620px) {
+
+	.btHasAuthorInfo {
+		.btArticleListBody {
+			padding-left: 0;
+			clear: both;
+		}
+		.articleSideGutter {
+			position: relative;
+			left: 0;
+			width: auto;
+			padding-bottom: 0.5em;
+		}
+		.asgItem.avatar {
+			width: 45px;
+			float: left;
+		}	
+	}
+	.btSliderTwoServices {
+		width: 100%;
+	}
+
+
+	.btSearchInner.btFromTopBox {
+		form {
+			height: 46px;
+			margin: -23px 10% 0;
+		}
+		.btSearchInnerClose {
+			.btIco.btIcoMediumSize {
+				line-height: 80px;
+				.btIcoHolder:before {
+					font: 80px/1 Icon7Stroke;
+				}
+			}
+		}
+		input[type="text"] {
+			padding: 0 62px 0 0;
+			height: 60px;
+			font-size: 38px;
+			:lightSkinSelector & {
+				border-bottom: 3px solid $(lightBorderColor);
+			}
+			:darkSkinSelector & {
+				border-bottom: 3px solid $(darkBorderColor);
+			}
+			&:focus {
+				:lightSkinSelector & {border-bottom: 3px solid $(accentColor1);}
+				:darkSkinSelector & {border-bottom: 3px solid $(accentColor1);}
+			}
+		}
+		button {
+		    width: 56px;
+		    height: 60px;
+		}
+		button:before {
+			font: 40px/1 Icon7Stroke;
+		}
+	}
+
+	.neighboringArticles h4.nbs {
+		.nbsImage {display: none;}
+		a {
+			height: auto;
+			.nbsItem .nbsTitle {font-size: 0.8em;}
+			&:before {
+				flex: 0 0 30px;
+				width: 30px;
+				line-height: 1;
+			}
+		}
+	}
+
+	.btCommentsBox {
+		ul.comments ul article {padding: 0;}
+		ul.children {
+		    margin: 0 0 0 10px;
+		    ul.children {margin: 0 0 0 10px;}
+		}
+		.vcard {
+			h5.author {
+			    float: none;
+			    margin: 0 0 5px;
+			    font-size: 18px;
+			    font-weight: 600;
+			}
+			.posted {
+			    float: none;
+			    margin: 0.2em 0 1.2em;
+			    font-size: 12px;
+			    clear: left;
+			    padding: 0;
+			    &:before {
+				    background: transparent;
+				    color: #000;
+				    padding: 0;
+				    border-radius: 0;
+				    width: auto;
+				    height: auto;
+				    margin: -1px 5px 0 0;
+				}
+			}
+		}
+		.children .author .fn {
+			display: inline-block;
+			position: relative;
+			padding: 0 15px 0 0;
+			&:before {
+				content: '\f148';
+				font: normal 14px/1 FontAwesome;
+				display: block;
+				position: absolute;
+				right: 0;
+				margin: 4px 0 0;
+				color: #000;
+			}
+		}
+		.commentTxt {
+			p.reply, p.edit-link {
+				font-size: 12px;
+				padding: 0;
+				float: left;
+			}
+			p.edit-link { 
+				margin: 0 0 10px;
+			}
+			p.reply {
+				clear: left;
+				margin: 0 10px 10px 0;
+			}
+		}
+	}
+
+	/* Typography breakpoint */
+	body {font-size: 14px;}
+	h1 {font-size: 3.4em;}
+	h2 {font-size: 2.4em;}	
+	h3 {font-size: 1.85em;}
+	h4 {font-size: 1.6em;}
+	h5 {font-size: 1.35em;} 
+	.header.huge {font-size: 11px;}
+	.header.extralarge {font-size: 12px;}
+	.header.extrasmall h4 {font-size: 1.35em;}
+	.btDash.topDash :any(.btSuperTitle:before,.btSuperTitle:after) {min-width: 2em;}
+	/* /Typography breakpoint */
+
+}
+
+
+@media (max-width: 580px) {
+	.btMenuVerticalLeft {
+		.btLogoArea .logo {
+	    	margin-right: -1.5em;
+	    }
+	    .btVerticalMenuTrigger {
+		    margin: 0 0 0 -1.4em;
+		}
+	}
+
+	.btBtn.btnNormalWidth + .btBtn.btnNormalWidth {margin-top: 5px;}
+
+	.commentAvatar {
+	    width: 50px;
+    	padding: 20px 10px 0 0;
+	}
+
+	/* Typography breakpoint */
+	body {font-size: 13px;}
+}
+
+@media (max-width: 460px) {
+	.btAboutAuthor {
+	    display: block;
+	    width: auto;
+	    .aaAvatar {
+	    	display: block;
+	    	width: auto;
+	    	max-width: 150px;
+	    	margin: 0 auto 20px;
+	    }
+	    .aaTxt {
+	    	display: block;
+	    	padding: 0;
+	    	margin: 0 0 10px;
+	    	text-align: center;
+	    }
+	}
+	
+	/* Typography breakpoint */
+	h1 {font-size: 3.2em;}
+	h2 {font-size: 2.3em;}	
+	.header.huge {font-size: 10px;}
+	.header.extralarge {font-size: 11px;}
+	/* /Typography breakpoint */
+}
+
+@media (max-width: 360px) {
+	/* Typography breakpoint */
+	h1 {font-size: 3em;}
+	h2 {font-size: 2.1em;}	
+	.header.huge {font-size: 9.3px;}
+	.header.extralarge {font-size: 10.2px;}
+	/* /Typography breakpoint */
+}

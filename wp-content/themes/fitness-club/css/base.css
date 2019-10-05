@@ -1,0 +1,340 @@
+/* Montserrat family (custom,notGoogleF) */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Black.eot');
+    src: url('../fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Black.woff2') format('woff2'),
+        url('../fonts/Montserrat-Black.woff') format('woff'),
+        url('../fonts/Montserrat-Black.ttf') format('truetype'),
+        url('../fonts/Montserrat-Black.svg#Montserrat-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBold.eot');
+    src: url('../fonts/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraBold.woff') format('woff'),
+        url('../fonts/Montserrat-ExtraBold.ttf') format('truetype'),
+        url('../fonts/Montserrat-ExtraBold.svg#Montserrat-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Hairline.eot');
+    src: url('../fonts/Montserrat-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Hairline.woff2') format('woff2'),
+        url('../fonts/Montserrat-Hairline.woff') format('woff'),
+        url('../fonts/Montserrat-Hairline.ttf') format('truetype'),
+        url('../fonts/Montserrat-Hairline.svg#Montserrat-Hairline') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff'),
+        url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.eot');
+    src: url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('../fonts/Montserrat-SemiBold.ttf') format('truetype'),
+        url('../fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.eot');
+    src: url('../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Light.woff2') format('woff2'),
+        url('../fonts/Montserrat-Light.woff') format('woff'),
+        url('../fonts/Montserrat-Light.ttf') format('truetype'),
+        url('../fonts/Montserrat-Light.svg#Montserrat-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-UltraLight.eot');
+    src: url('../fonts/Montserrat-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-UltraLight.woff2') format('woff2'),
+        url('../fonts/Montserrat-UltraLight.woff') format('woff'),
+        url('../fonts/Montserrat-UltraLight.ttf') format('truetype'),
+        url('../fonts/Montserrat-UltraLight.svg#Montserrat-UltraLight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+/* FontAwesome */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*  7-stroke (http://themes-pixeden.com/font-demos/7-stroke/index.html) */
+
+@font-face {
+    font-family: 'Icon7Stroke';
+    src:url('../fonts/Pe-icon-7-stroke.eot?d7yf1v');
+    src:url('../fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v') format('embedded-opentype'),
+    url('../fonts/Pe-icon-7-stroke.woff?d7yf1v') format('woff'),
+    url('../fonts/Pe-icon-7-stroke.ttf?d7yf1v') format('truetype'),
+    url('../fonts/Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}  
+
+/* Weather icons */
+
+@font-face {
+    font-family: 'WeatherIcons';
+    src: url('../fonts/weathericons-regular-webfont.eot');
+    src: url('../fonts/weathericons-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/weathericons-regular-webfont.woff2') format('woff2'),
+         url('../fonts/weathericons-regular-webfont.woff') format('woff'),
+         url('../fonts/weathericons-regular-webfont.ttf') format('truetype'),
+         url('../fonts/weathericons-regular-webfont.svg#weather_iconsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Custom icons */
+
+@font-face {
+    font-family: 'CustomEssentialSet';
+    src:
+        url('../fonts/CraftEssential.ttf?uo8kwk') format('truetype'),
+        url('../fonts/CraftEssential.woff?uo8kwk') format('woff'),
+        url('../fonts/CraftEssential.svg?uo8kwk#CustomEssentialSet') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CustomBusinessSet';
+    src:
+        url('../fonts/Business.ttf?uo8kwk') format('truetype'),
+        url('../fonts/Business.woff?uo8kwk') format('woff'),
+        url('../fonts/Business.svg?uo8kwk#CustomBusinessSet') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'btFitness';
+    src:
+        url('../fonts/btFitnessAndSport.ttf?lm34n21') format('truetype'),
+        url('../fonts/btFitnessAndSport.woff?lm34n21') format('woff'),
+        url('../fonts/btFitnessAndSport.svg?lm34n21#btFitnessAndSport') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Variables */
+
+@set baseTemplateWidth 1200; // Base gutter width
+
+@set headingFont Dosis; // Headline fond
+@set headingSuperTitleFont Montserrat; // Headline supertitle font
+@set headingSubTitleFont Montserrat; // Headline subtitle font
+
+@set logoFont Montserrat; // Headline fond
+@set menuFont Montserrat; // Base font 
+
+@set bodyFont Montserrat; // Base font
+@set bodyFontSize 16; // Base font size
+ 
+@set lightFontColor #343839; // Base font color
+@set lightFontColorLighter l-adjust($(lightFontColor) 30);// Lighter light font color
+@set lightFontColorDarker l-adjust($(lightFontColor) -30);// Darker light font color
+
+@set lightHeadlineColor #343839; // Base headline color
+@set lightBgColor #fff; // Base bg color
+@set lightBorderColor rgba(0,0,0,0.1); // Base border color
+@set lightBgSubColor rgba(0,0,0,0.07);  // Sub bg color
+
+@set darkFontColor #fff; // Base font color
+@set darkHeadlineColor #fff; // Base headline color
+@set darkBgColor #181A1E; // Base bg color
+@set darkBorderColor rgba(255,255,255,0.1); // Base border color
+@set darkBgSubColor rgba(255,255,255, 0.2);  // Sub bg color
+
+@set accentColor #5dc2ca; // Main color
+@set alternateColor #a082d2; // Secondary color 
+
+@set accentColor1 #5dc2ca; // Accent color 1
+@set accentColor2 #a082d2; // Accent color 2
+@set accentColor3 #ffba52; // Accent color 3
+@set accentColor4 #eb6ea6; // Accent color 4
+
+@set accentColorDark l-adjust($(accentColor1) -15);// Darker main color
+@set accentColorVeryDark l-adjust($(accentColor1) -25);// Darker main color
+@set accentColorLight a-adjust($(accentColor1) -30);// Darker main color
+@set accentColorOpaque a-adjust($(accentColor1) -15);// Darker main color
+
+@set sidebarWidth 25; // Sidebar width (%)
+@set sidebarPadding 20; // Padding between sidebar and sontent
+@set pagePadding 30; // Left and right page padding for boxed content
+@set innerVerticalPadding 20; // Top and bottom padding between content elements (base value)
+@set innerHorizontalPadding 20; // RowItem padding
+@set gridSpacing 5; // Default spacing in grid gallery
+@set logoHeight 44; // Defines logo height and menu line height
+@set belowLogoMenuHeight 64; Defines menu height whwn below menu
+
+@set menuVerticalPadding 20; // Top and bottom padding of the whole horizontal menu (px)
+@set menuPadding 50; // Padding between horizontal menu elements (px)
+@set verticalMenuWidth 320; // Width of the vertical menu (px)
+@set dropdownWidth 250; // dropdown width (px)
+@set menuFontSize 14; // Base font size
+
+@set extrasmallIconSize 21; // Small icon size
+@set smallIconSize 27; // Small icon size
+@set mediumIconSize 40; // Small icon size
+@set bigIconSize 48; // Small icon size
+@set largeIconSize 80; // Small icon size
+
+/* Aliases */
+
+@selector darkSkinSelector :any(.btDarkSkin, .btLightSkin .btDarkSkin, .btDarkSkin.btLightSkin .btDarkSkin);
+@selector lightSkinSelector :any(.btLightSkin, .btDarkSkin .btLightSkin, .btLightSkin .btDarkSkin .btLightSkin);
+
+
+/* Reset */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary,
+audio,
+canvas,
+video {
+    display: block; 
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+*:focus, * {
+    outline: none;
+    outline: 0;
+}
+
+.touch * {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-focus-ring-color:  rgba(0, 0, 0, 0);
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+html,body {
+	margin:0;
+	padding:0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+/* FloatClears */
+
+.btClear:after, .mainHeader:after, .menuHolder .port:after, .topBarPort:after, .boldSiteFooter:before, .boldSiteFooter:after, .boldSiteFooter .port:after, .contentWrap:after,
+.contentHolder:after, .btBox:after, .boldSection .port:after, .header:after, .boldRow:after, .socialRow:before, .socialRow:after, .servicesItem .sIcon:after,
+.boldSection:before, .boldSection:after, .psCats:after, .psWrap:after, .btTabs:after, .neighboringArticles:after, .socialRow:after,
+.articleListItem footer:after, .articleListItem .footer:after, .btPagination:after, .boldArticleBody blockquote:after, .tilesWall.classic .bgiTxt:after, .btQuoteItem:after,
+.boldArticleHeader .socialRow:before, .tagcloud:after, .btInstaGrid:after, .btMenuHorizontal.btMenuBelowLogo .menuPort:after, .btMenuHorizontal .menuPort:after, nav.woocommerce-pagination:before,
+ul.products:after 
+{
+    content: " ";
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+

@@ -1,0 +1,129 @@
+/* Footer */
+
+.btPageWrap > footer, .btPageWrap > .footer {
+	font-size: 13px;
+}
+
+/* Footer copyright */
+
+.btSiteFooter  {
+	font-weight: 300;
+	.port {
+		max-width: math($(baseTemplateWidth) - 2*$(pagePadding), px);
+		margin: auto;
+	}
+	.copyLine {
+		margin-bottom: 0;
+	}
+	.menu {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-align: right;
+		li {
+			display: inline-block;
+			margin: 0 15px 0 0;
+			padding: 0;
+		}
+		li:last-child {
+			margin: 0;
+		}
+	}
+}
+
+
+.btSiteFooterWidgets {
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.15);
+	.btBox {
+		background-color: transparent;
+		.btImage img {
+			margin: initial;
+		}	
+	}	
+}
+
+.btSiteFooter {
+	.port .btFooterCopy, .port .btFooterMenu {
+		padding-bottom: 2em;
+	}
+	.port:before  {
+		content: '';
+		clear: both;
+		width: 100%;
+		display: block;
+		height: 4px; 
+		background-color: $(darkHeadlineColor);
+		margin-bottom: 2em;
+	}	
+}
+
+:lightSkinSelector {
+	.btSiteFooterWidgets  {
+		background: $(lightBgColor);
+	}
+	.btSiteFooter  {
+		background: $(darkHeadlineColor);
+		.port:before  {
+			background-color: $(lightHeadlineColor);
+		}		
+	}
+}
+
+:darkSkinSelector {
+	.btSiteFooterWidgets  {
+		background: $(darkBgColor);
+	}
+	.btSiteFooter  {
+		background: $(darkBgColor);
+		.port:before  {
+			background-color: $(darkHeadlineColor);
+		}
+	}
+}
+
+footer, .footer {
+	/*border-top: 3px solid $(accentColor1);*/
+}
+
+section footer, article footer, section .footer, article .footer {
+	border-top: none;
+}
+
+
+.menu-footer-menu-container {
+	.menu {
+		display: block;
+		li {
+			display: inline-block;
+			padding: 0 0.85em;
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 1.1;
+		}		
+	}
+}
+.btTextRight {
+	.menu-footer-menu-container {
+		text-align: right;
+		.menu {
+			li {
+				padding: 0 0 0 1.7em;
+			}
+		}
+	}
+}
+.btTextLeft {
+	.menu-footer-menu-container {
+		text-align: left;
+		.menu {
+			li {
+				padding: 0 1.7em 0 0;
+			}
+		}
+	}
+}
+.btTextCenter {
+	.menu-footer-menu-container {
+		text-align: center;
+	}
+}
